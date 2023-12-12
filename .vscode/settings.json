@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "commentTranslate.hover.enabled": true,
+    "clangd.fallbackFlags": [
+        "-std=c++14",
+        "-I${workspaceFolder}", // 项目根目录
+        "-I${workspaceFolder}/third_party/include"
+
+    ]
+}
